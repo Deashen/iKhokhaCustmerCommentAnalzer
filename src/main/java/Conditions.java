@@ -18,6 +18,19 @@ public class Conditions {
     @Column(name = "ConditionsLogic", nullable = false)
     private String ConditionsLogic;
 
+    @Column(name = "ConditionsValue", nullable = false)
+    private String ConditionsValue;
+
+    public String getConditionsValue() {
+        return ConditionsValue;
+    }
+
+    public void setConditionsValue(String conditionsValue) {
+        ConditionsValue = conditionsValue;
+    }
+
+
+
     public int getIdConditions() {
         return idConditions;
     }
