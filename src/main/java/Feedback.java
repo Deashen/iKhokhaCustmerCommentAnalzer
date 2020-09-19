@@ -6,6 +6,16 @@ import javax.persistence.*;
 @Table(name="Feedback")
 public class Feedback {
 
+    public Feedback(String feedbackDesc)
+    {
+        setFeedbackDesc(feedbackDesc);
+    }
+
+    public Feedback()
+    {
+
+    }
+
     @Id
     @Column(name="idFeedback")
     @GeneratedValue(generator = "incrementor")
@@ -29,5 +39,10 @@ public class Feedback {
 
     public void setFeedbackDesc(String feedbackDesc) {
         FeedbackDesc = feedbackDesc;
+    }
+
+    @Override
+    public String toString() {
+        return FeedbackDesc+"";
     }
 }

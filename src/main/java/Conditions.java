@@ -54,4 +54,9 @@ public class Conditions {
     public void setConditionsLogic(String conditionsLogic) {
         ConditionsLogic = conditionsLogic;
     }
+
+    @Override
+    public String toString() {
+        return ConditionsDesc+"";
+    }
 }
