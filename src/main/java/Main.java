@@ -8,10 +8,10 @@ public class Main {
 //        List<Feedback> objs = ReadFromFile.readFromFiles();
 //
 //        for (Feedback obj: objs) {
-//            WriteToDB.writeFeedbackToDB(obj);
+//            DBConnect.writeFeedbackToDB(obj);
 //        }
 //
-//        List<Feedback> comments = WriteToDB.readFeedbackFromDB();
+//        List<Feedback> comments = DBConnect.readFeedbackFromDB();
 //
 //        if (comments!=null)
 //        {
@@ -20,12 +20,12 @@ public class Main {
 //            }
 //        }
 
-        List<Conditions> conditions = WriteToDB.readConditionsFromDB();
+        List<Conditions> conditions = DBConnect.readConditionsFromDB();
 
         if (conditions!=null)
         {
             for (Conditions condition: conditions) {
-                System.out.println(condition);
+                System.out.println(condition.getConditionsLogic()+" "+condition.getConditionsValue());
             }
         }
 

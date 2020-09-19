@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WriteToDB {
+public class DBConnect {
 
     public static boolean writeToConsitionsDB(Conditions obj) {
 
