@@ -12,8 +12,10 @@ public class ReadFromFile {
         List<String> feedbackList = new ArrayList<>();
         List<Feedback> feedbacklineitem = new ArrayList<Feedback>();
 
-        for (File commentFile : commentFiles) {
-            feedbackList.addAll(readLineFromFile(commentFile));
+        if (commentFiles != null) {
+            for (File commentFile : commentFiles) {
+                feedbackList.addAll(readLineFromFile(commentFile));
+            }
         }
 
         for (String items : feedbackList) {

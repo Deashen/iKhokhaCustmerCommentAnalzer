@@ -15,11 +15,19 @@ public class Conditions {
     @Column(name = "ConditionsDesc", nullable = false)
     private String ConditionsDesc;
 
-    @Column(name = "ConditionsLogic", nullable = false)
-    private String ConditionsLogic;
-
     @Column(name = "ConditionsValue", nullable = false)
     private String ConditionsValue;
+
+    @Column(name = "ConditionCount", nullable = false)
+    private int ConditionCount;
+
+    public int getConditionCount() {
+        return ConditionCount;
+    }
+
+    public void setConditionCount(int conditionCount) {
+        ConditionCount = conditionCount;
+    }
 
     public String getConditionsValue() {
         return ConditionsValue;
@@ -28,8 +36,6 @@ public class Conditions {
     public void setConditionsValue(String conditionsValue) {
         ConditionsValue = conditionsValue;
     }
-
-
 
     public int getIdConditions() {
         return idConditions;
@@ -45,14 +51,6 @@ public class Conditions {
 
     public void setConditionsDesc(String conditionsDesc) {
         ConditionsDesc = conditionsDesc;
-    }
-
-    public String getConditionsLogic() {
-        return ConditionsLogic;
-    }
-
-    public void setConditionsLogic(String conditionsLogic) {
-        ConditionsLogic = conditionsLogic;
     }
 
     @Override

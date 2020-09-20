@@ -1,0 +1,30 @@
+[
+  {
+    "Conditions":{
+      "ConditionsDesc":"Contains Mover",
+      "ConditionsValue": "Mover",
+      "ConditionCount": "0"
+    }
+  },
+  {
+    "Conditions":{
+      "ConditionsDesc":"Contains Shaker",
+      "ConditionsValue": "Shaker",
+      "ConditionCount": "0"
+    }
+  },
+  {
+    "Conditions":{
+      "ConditionsDesc":"Contains Question",
+      "ConditionsValue": "\\?",
+      "ConditionCount": "0"
+    }
+  },
+  {
+    "Conditions":{
+      "ConditionsDesc":"Contains Spam",
+      "ConditionsValue": "http",
+      "ConditionCount": "0"
+    }
+  }
+]

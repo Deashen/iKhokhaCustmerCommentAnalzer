@@ -10,7 +10,7 @@
         <class>com.ikhokha.techcheck.DBResources.Conditions</class>
         <properties>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/TestModels"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/ikhokhadatabase"/>
             <property name="hibernate.connection.autocommit" value="false"/>
             <property name="hibernate.connection.username" value="ubuntu"/>
             <property name="hibernate.connection.password" value="password"/>
