@@ -1,4 +1,4 @@
-# iKhokhaCustmerCommentAnalzer
+# iKhokha Custmer Comment Analzer
 
 This repo has a Java project that has Hibernate as an ORM. 
 
